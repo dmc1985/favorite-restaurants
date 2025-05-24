@@ -1,7 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { RestaurantForm } from '../components/RestaurantForm';
-import { restaurantsApi, type Restaurant } from '../services/api';
+import { restaurantsApi } from '../services/api';
 import { ArrowLeftIcon } from '@heroicons/react/24/solid';
+import type { Restaurant } from '../types/api.ts';
 
 export function AddRestaurantPage() {
   const navigate = useNavigate();

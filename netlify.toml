@@ -1,0 +1,8 @@
+[build]
+  base = "frontend"
+  command = "yarn build"
+  publish = "dist"
+
+[dev]
+  command = "yarn run dev"
+  targetPort = 5173
